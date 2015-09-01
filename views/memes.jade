@@ -1,0 +1,11 @@
+
+.memes
+   each meme in memes
+      .meme
+         img(id=meme.id, class='image', src=meme.url, alt='funny dog meme')
+         each sentence in sentences
+            if sentence.id == meme.id
+               p(id=meme.id, class='descriptor') #{sentence.sentence}
+         form(name='addComment' id=meme.id class='addComment')
+            input(type='text', name='comment', id='comment'+ meme.id, placeholder='Say something...' required)
+            input(type='submit', value='POST IT', id=meme.id, class='submit')

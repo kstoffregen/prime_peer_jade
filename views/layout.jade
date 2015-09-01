@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js', type='text/javascript')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js', type='text/javascript')
+    script(src='/javascripts/script.js', type='text/javascript')
+  body
+      h1(class='header') Silly Dog Memes
+    include ./memes.jade

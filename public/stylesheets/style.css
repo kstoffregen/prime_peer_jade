@@ -1,0 +1,50 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #FF713C;
+}
+
+.header {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 20px 0;
+  background-color: #E8D50B;
+  color: #962BE8;
+}
+
+img {
+  height: 300px;
+}
+
+.meme {
+  margin: 30px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #E8D50B;
+}
+
+.memes {
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #81FFBE;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 10px;
+  text-align: left;
+  color: #962BE8;
+}
+
+.submit {
+  border: none;
+  padding: 2px 5px;
+  background-color: #68EEFF;
+  color: #962BE8;
+}
+
+.descriptor {
+  font-weight: bold;
+}
